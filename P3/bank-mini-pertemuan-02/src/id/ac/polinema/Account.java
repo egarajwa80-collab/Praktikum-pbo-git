@@ -2,7 +2,7 @@ package id.ac.polinema;
 
 public class Account {
     private String accountNumber;
-    private String ownerName;
+    private String ownerName; 
     private double balance;
     private double dailyWithdrawalLimit; 
 
@@ -45,3 +45,5 @@ public class Account {
         System.out.println(accountNumber + " - " + ownerName + " - balance: " + balance);
     }
 }
+
+
